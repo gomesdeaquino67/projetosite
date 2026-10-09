@@ -1,0 +1,15 @@
+.aviso{
+border: 2px solid red;
+margin: 10px;
+padding: 10px;
+}
+.mensagem{
+border: 2px dashed blue;
+margin: 20px;
+padding: 15px;
+}
+.obs{
+border: 2px dotted green;
+margin: 30px;
+padding: 20px;
+}

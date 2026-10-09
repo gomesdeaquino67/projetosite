@@ -1,0 +1,17 @@
+.Borda1 {
+ border:solid 2px red;
+ margin-left: 50px;
+margin-bottom:50px;
+margin-right:50px;
+margin-top:50px;
+}
+.Borda2{
+border: dotted 2px blue;
+padding-top:50px;
+padding-bottom:50px;
+padding-left:50px;
+}
+.Borda3{
+border: dashed 2px green;
+padding: 50px 50px 50px 50px;
+}

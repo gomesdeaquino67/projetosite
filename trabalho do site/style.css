@@ -1,0 +1,170 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+gap: 50px;
+}
+
+.body{
+font-family: 'Courier New', Courier, monospace;
+background-color: #111;
+color: white;
+padding: 2px;
+background-color: #111;
+}
+
+.menu{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px;
+background-image: url(https://w0.peakpx.com/wallpaper/498/204/HD-wallpaper-pin-de-dante-en-napoleon-napoleon-bonaparte-napoleon-arte-pintura-napoleon-painting.jpg);
+background-color: black;
+background: linear-gradient(
+    135deg,
+    #080808
+    #17120a
+    #0b0b0b
+);
+height:180px;
+border-bottom: 3px solid #5e4a09;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+.menu a{
+color: white;
+text-decoration: none;
+font-family: Georgia, serif;
+font-size: 18px;
+font-weight: bold;
+padding: 20px 15px;
+background-color: rgba(54, 38, 38, 0.945);
+padding: 20px 15px;
+border-radius: 5px;
+transition: 0.3;
+}
+
+.menu a:hover{
+color: #886d13;
+background-color: #29230f;
+border-color: #6b550a;
+transform: translateY(-3px);
+box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+body{background-image: url(https://img.magnific.com/vetores-gratis/fundo-ondulado-de-papel_23-2149113696.jpg?semt=ais_hybrid&w=740&q=80);
+background-size: cover;
+background-position: center;
+height: 100px;
+}
+
+.inicio{
+text-align: center;
+padding: 120px 20px;
+}
+
+.inicio h1{
+font-size: 60px;
+color: rgb(102, 77, 7);
+-webkit-text-stroke: 0.5px rgba(10, 5, 5, 0.705);
+}
+
+.vida{
+max-width: 1000px;
+margin: 30px;
+}
+
+.guerras{
+max-width: 1000px;
+margin: 30px;
+}
+
+.legado{
+max-width: 1000px;
+margin: 30px;
+}
+
+.imagem{
+display: block;
+width: 120px;
+margin: 10px;
+object-fit: cover;
+border-radius: 150px;
+}
+
+.vida p{
+font-size: 20px;
+line-height: 1.2;
+}
+
+.vida{
+color: rgba(255, 255, 255, 0.719);
+max-width: 1000px;
+padding: 10px;
+background-color: rgba(221, 210, 210, 0.253);
+}
+
+.guerras{
+color: rgba(255, 255, 255, 0.719); 
+font-size: 20px;
+line-height: 1.2;
+}
+
+.guerras p{
+padding: 10px;
+background-color: rgba(255, 255, 255, 0.158);
+}
+
+.legado{
+color: rgba(255, 255, 255, 0.719);
+max-width: 1000px;
+padding: 10px;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.legado p{
+padding: 10px;
+background-color: rgba(199, 197, 197, 0.158);
+}
+
+.inicio p{
+font-size: 30px;
+color: rgba(240, 231, 231, 0.514);
+-webkit-text-stroke: 0.5px rgb(59, 77, 114);
+background-color: rgba(240, 248, 255, 0.062);
+}
+
+ul, ol{
+color: white;
+font-family: Georgia, serif;
+font-size: 18px;
+line-height: 2;
+padding-left: 35px;
+}
+
+li{
+padding: 5px;
+}
+
+li::marker{
+color: darkblue;
+}
+
+.caracteristicas h2{
+color: red;
+-webkit-text-stroke: rgb(155, 12, 12) 0.5px ;
+}
+
+.acontecimentos h2{
+color: red;
+-webkit-text-stroke: rgb(155, 12, 12) 0.5px ;
+}
+
+.caracteristicas, .acontecimentos{
+background-color: rgba(0, 0, 0, 0.7);
+padding: 20px;
+margin: 20px 0;
+border-left: 3px solid #d4af37;
+border-radius: 5px;
+}
